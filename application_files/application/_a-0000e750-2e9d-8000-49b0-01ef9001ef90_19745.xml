@@ -2,7 +2,7 @@
 <applicationHaul xmlns:a="http://www.appian.com/ae/types/2009">
             
     
-    <versionUuid>_a-0000e750-2e9d-8000-49b0-01ef9001ef90_19782</versionUuid>
+    <versionUuid>_a-0000e758-49ac-8000-49b3-01ef9001ef90_20803</versionUuid>
             
     
     <application>
@@ -56,7 +56,7 @@
         <public>false</public>
                         
         
-        <prefix>D</prefix>
+        <prefix>DO</prefix>
                         
         
         <associatedObjects>
@@ -71,7 +71,13 @@
                     <type>datatype</type>
                                                             
                     
-                    <uuids/>
+                    <uuids>
+                                                                        
+                        
+                        <uuid>{urn:com:appian:types:DO}DO_DEPT</uuid>
+                                                                    
+                    
+                    </uuids>
                                                         
                 
                 </item>
@@ -83,7 +89,13 @@
                     <type>dataStore</type>
                                                             
                     
-                    <uuids/>
+                    <uuids>
+                                                                        
+                        
+                        <uuid>_a-0000e758-49ac-8000-49b3-01ef9001ef90_20788</uuid>
+                                                                    
+                    
+                    </uuids>
                                                         
                 
                 </item>
@@ -849,6 +861,9 @@
                         
         
         <historyInfo versionUuid="_a-0000e750-2e9d-8000-49b0-01ef9001ef90_19782"/>
+                        
+        
+        <historyInfo versionUuid="_a-0000e758-49ac-8000-49b3-01ef9001ef90_20803"/>
                     
     
     </history>
@@ -857,4 +872,4 @@
     <postDeploymentProcessData/>
         
 
-</applicationHaul><!--updated on 2021-11-23T11:20:21.494-->
+</applicationHaul><!--updated on 2021-11-23T12:11:58.967-->

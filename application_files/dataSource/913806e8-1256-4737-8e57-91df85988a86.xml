@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataSourceHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <dataSourceInfo>
+        <uuid>913806e8-1256-4737-8e57-91df85988a86</uuid>
+        <name>jdbc/vgro</name>
+        <type>MariaDB</type>
+        <connectionString>jdbc:mariadb://175.101.6.70:3306/vgro_rboin_dev?useOldAliasMetadataBehavior=true</connectionString>
+    </dataSourceInfo>
+</dataSourceHaul>

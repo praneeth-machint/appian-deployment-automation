@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dataSourceHaul xmlns:a="http://www.appian.com/ae/types/2009">
+    <dataSourceInfo>
+        <uuid>5ad2ee58-23d1-4db1-8d53-ab145a2c6611</uuid>
+        <name>jdbc/mpoc</name>
+        <type>MariaDB</type>
+        <connectionString>jdbc:mariadb://175.101.6.70:3306/machint_poc?useOldAliasMetadataBehavior=true</connectionString>
+    </dataSourceInfo>
+</dataSourceHaul>

@@ -1,8 +1,1 @@
-CREATE OR REPLACE 
-VIEW `dept_view` AS
-    SELECT
-		RAND() AS row_num,
-        `dept_id` AS `dept_id`,
-        dept_name` AS `dept_name`
-    FROM
-        `dept`
+CREATE OR REPLACE ALGORITHM = UNDEFINED DEFINER = `machint`@`%` SQL SECURITY DEFINER VIEW `dept_view` AS SELECT RAND() AS row_num,`dept_id` AS `dept_id`,dept_name` AS `dept_name` FROM `dept`
